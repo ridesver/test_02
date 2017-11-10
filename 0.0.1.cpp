@@ -7,7 +7,7 @@ using namespace std;
 void select(int *a, int b)
 {
 	for(int i=0; i< b/2; i++)
-     swap(a[i],a[b-i-1]);
+		swap(a[i],a[b-i-1]);
 }
 bool numbers(int *a, int b)
 {
