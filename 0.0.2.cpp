@@ -46,9 +46,9 @@ int main()
       swap(A[j], A[b-c-1]);
       c++;
     }
-    for ( int y = 0; y < a/2 ; y++) 
+    for ( int f = 0; f < a/2 ; f++) 
     {
-      swap(A[y], A[a-y-1]);
+      swap(A[f], A[a-f-1]);
     }
     c=0;
     for (int i = 0; i < a; i++) 
